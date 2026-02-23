@@ -1,0 +1,8 @@
+<h2>Presidents</h2>
+
+<!--Create a list of presidents using @For with trackBy-->
+<ul>
+  @for(president of presidents; track president.name) {
+    <li>{{president.name}} - {{president.term}}</li>
+  }
+</ul>
